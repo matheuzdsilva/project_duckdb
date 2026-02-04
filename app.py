@@ -1,8 +1,3 @@
-import streamlit as st
+from project_duckdb.main import run
 
-def main():
-    st.write("Hellow World")
-
-
-if __name__ == "__main__":
-    main()
+run()

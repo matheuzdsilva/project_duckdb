@@ -1,9 +1,11 @@
 [tool.poetry]
-name = "project_duckdb"
+name = "project-duckdb"
 version = "0.1.0"
 description = ""
 authors = ["mssilva <matheuzdsilva@icloud.com>"]
 readme = "README.md"
+
+packages = [{ include = "project_duckdb", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.11"
